@@ -21,5 +21,6 @@ Una vez hecho esto se debe de llamar a la función nReinas(TamTablero,TamPoblaci
           - {limit,Generaciones,Elitismo}: en este caso se va a ejecutar con un límite de generaciones indicado en Generaciones, e igual que la forma anterior indica si se utiliza o no el elitismo.
           - {hilos,Cantidad,Param}: En este caso funciona con hilos, se van a hacer Cantidad hilos con los mismos parámetros que tienen el tercer elemento de la tupla,
                                     que es a su vez una tupla con los parámetros anteriores. Se van a obtener hasta Cantidad de resultados
-Se debe llamar a la función de la siguiente manera
+
+Se debe llamar a la función de la siguiente manera:
   reinas:nReinas(10,11,0.03,{hilos,50,{unlimit,no}}).
